@@ -1,0 +1,18 @@
+# Directories
+bin/
+!vendor/bin/premake/
+bin-int/
+
+# Tomato log files
+*.json
+*.log
+
+# Visual Studio files and folders
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# ImGui configurations
+*.ini
