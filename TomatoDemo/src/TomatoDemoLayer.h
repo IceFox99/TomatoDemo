@@ -40,6 +40,7 @@ private:
 	Level m_Level;
 	float m_AccumulatedTs;  // would be better as Tomato::Timestep, but that doesnt support operator +=
 	int m_CurrentLevel;
+	int m_EndLevel;
 	bool m_PlayerIsAlive;   // if false, then pressing spacebar restarts.  Otherwise, pressing spacebar pauses
 	bool m_GamePaused;
 	bool m_WonLevel;
